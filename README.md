@@ -1,0 +1,2 @@
+# HBNetwork
+HBNetwork是基于AFNetworking封装的一套网络请求框架。
