@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E95A41CD1BE09609006B9C78 /* HBNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBNetwork.h; sourceTree = "<group>"; };
 		E9D2D24A1BDF2B9C005C0C0F /* HBNetwork_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBNetwork_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D2D24E1BDF2B9C005C0C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9D2D2501BDF2B9C005C0C0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -171,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D2D28E1BDF4A3E005C0C0F /* AFNetworking2.6.1 */,
+				E95A41CD1BE09609006B9C78 /* HBNetwork.h */,
 				E9D2D27C1BDF4649005C0C0F /* HBNetworkHelper.h */,
 				E9D2D27D1BDF4649005C0C0F /* HBNetworkHelper.m */,
 				E9D2D2731BDF413E005C0C0F /* HBNetworkConfig.h */,

@@ -8,7 +8,27 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString *const HBNetworkReachabilityChangeNotification;
+
+extern NSString *const HBNetworkReachabilityStatusUserInfoKey; // NSNumber of NSInterger
+
+typedef NS_ENUM(NSInteger,HBNetworkReachabilityStatus) {
+    HBNetworkReachabilityStatusUnknown          = -1,
+    HBNetworkReachabilityStatusNotReachable     = 0,
+    HBNetworkReachabilityStatusReachableViaWWAN = 1,
+    HBNetworkReachabilityStatusReachableViaWiFi = 2,
+};
+
 @interface HBNetworkHelper : NSObject
-+ (HBNetworkHelper *)sharedInstance;
+
++ (HBNetworkHelper *)helper;
+
+- (void)startMainServerReachabilityMonitor;
+
+- (BOOL)isMoitoringMainServerReachability;
+
+- (BOOL)isCurrentReachableToInternet;
+
+- (BOOL)reachableToInternetOnStatus:(HBNetworkReachabilityStatus)status;
 
 @end

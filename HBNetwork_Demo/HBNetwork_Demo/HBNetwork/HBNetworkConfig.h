@@ -13,6 +13,6 @@
 @property (nonatomic,strong) NSString * backupUrl;
 @property (nonatomic,strong) NSString * isOpenMode;
 
-+ (HBNetworkConfig *)sharedInstance;
++ (HBNetworkConfig *)defaultConfig;
 
 @end

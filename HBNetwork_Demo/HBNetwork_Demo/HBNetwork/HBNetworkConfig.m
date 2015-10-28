@@ -9,7 +9,7 @@
 #import "HBNetworkConfig.h"
 
 @implementation HBNetworkConfig
-+ (HBNetworkConfig *)sharedInstance{
++ (HBNetworkConfig *)defaultConfig{
     static HBNetworkConfig * sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

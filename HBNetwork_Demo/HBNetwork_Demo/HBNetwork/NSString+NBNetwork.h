@@ -10,4 +10,6 @@
 
 @interface NSString (NBNetwork)
 
+- (NSString *)absoluteBodyURL;
+- (NSInteger)port;
 @end
